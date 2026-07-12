@@ -39,7 +39,8 @@ const Index = () => {
         <meta property="og:title" content="FlowNine | Consultoria de Dados, IA e People Analytics" />
         <meta property="og:description" content="Consultoria de Dados, IA e People Analytics para empresas. Da arquitetura à operação, ajudamos a transformar dados em velocidade, eficiência e resultado." />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://flownine.com.br" />
+        <meta property="og:url" content="https://flownine.com.br/" />
+        <link rel="canonical" href="https://flownine.com.br/" />
       </Helmet>
       <div className="min-h-screen flex flex-col">
         <Navbar />
