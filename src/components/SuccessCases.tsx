@@ -1,25 +1,27 @@
 import React from 'react';
 import { TrendingUp } from 'lucide-react';
 import { useScrollReveal } from '@/hooks/use-scroll-reveal';
-import isaEnergiaImg from '@/assets/cases/isa-energia.jpg';
+import naturaRetencaoImg from '@/assets/cases/natura-retencao.jpg';
 import picpayDataImg from '@/assets/cases/picpay-data.jpg';
 import naturaMetasImg from '@/assets/cases/natura-metas.jpg';
 
-// Fotos: Wikimedia Commons, licença CC BY
-// - Umberto Salvagnin, "Italy, Veneto, 380 kV power line at sunset"
+// Fotos: Wikimedia Commons, licença CC BY / CC BY-SA
+// - Dennis G. Jarvis, "France-002800 - Perfume Factory"
 // - BalticServers.com, "BalticServers data center"
 // - Rawpixel Ltd, "Business people discussing in the cafe"
 const cases = [
   {
-    badge: 'ISA ENERGIA',
+    id: 'natura-retencao',
+    badge: 'NATURA &CO',
     title: 'IA Preditiva para Retenção de Talentos.',
     description:
       'Modelo preditivo identifica colaboradores com maior risco de saída — e o motivo. RH passa a agir com semanas de antecedência, em vez de descobrir no aviso prévio.',
     stats: '+1.500 colaboradores monitorados · risco previsto mensalmente · ações de retenção antes do desligamento',
-    image: isaEnergiaImg,
+    image: naturaRetencaoImg,
     imagePosition: 'object-center',
   },
   {
+    id: 'picpay-dados',
     badge: 'PICPAY',
     title: 'Democratização de Dados de RH.',
     description:
@@ -29,6 +31,7 @@ const cases = [
     imagePosition: 'object-center',
   },
   {
+    id: 'natura-metas',
     badge: 'NATURA &CO',
     title: 'Alinhamento Estratégico de Metas com IA.',
     description:
@@ -55,9 +58,9 @@ const SuccessCases = () => {
         </div>
 
         <div ref={gridReveal} className="scroll-reveal grid grid-cols-1 md:grid-cols-3 gap-8">
-          {cases.map(({ badge, title, description, stats, image, imagePosition }) => (
+          {cases.map(({ id, badge, title, description, stats, image, imagePosition }) => (
             <div
-              key={badge}
+              key={id}
               className="rounded-2xl overflow-hidden border border-automato-gold/20 bg-automato-dark-blue/40 futuristic-card hover:gold-glow transition-shadow"
             >
               <div className="relative h-56 overflow-hidden">
