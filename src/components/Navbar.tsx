@@ -60,12 +60,10 @@ const Navbar = () => {
         </div>
         
         <nav className="hidden md:flex space-x-10">
-          <a href="#data-ai" onClick={(e) => handleNavClick(e, 'data-ai')} className="text-white/80 hover:text-automato-gold transition-colors text-sm tracking-wider">DATA&AI</a>
           <a href="#servicos" onClick={(e) => handleNavClick(e, 'servicos')} className="text-white/80 hover:text-automato-gold transition-colors text-sm tracking-wider">SERVIÇOS</a>
           <a href="#como-funciona" onClick={(e) => handleNavClick(e, 'como-funciona')} className="text-white/80 hover:text-automato-gold transition-colors text-sm tracking-wider">COMO FUNCIONA</a>
           <a href="#beneficios" onClick={(e) => handleNavClick(e, 'beneficios')} className="text-white/80 hover:text-automato-gold transition-colors text-sm tracking-wider">BENEFÍCIOS</a>
           <a href="#solucoes" onClick={(e) => handleNavClick(e, 'solucoes')} className="text-white/80 hover:text-automato-gold transition-colors text-sm tracking-wider">SOLUÇÕES</a>
-          <a href="#depoimentos" onClick={(e) => handleNavClick(e, 'depoimentos')} className="text-white/80 hover:text-automato-gold transition-colors text-sm tracking-wider">DEPOIMENTOS</a>
           <a href="/blog" className="text-white/80 hover:text-automato-gold transition-colors text-sm tracking-wider">BLOG</a>
           <a href="#contato" onClick={(e) => handleNavClick(e, 'contato')} className="text-white/80 hover:text-automato-gold transition-colors text-sm tracking-wider">CONTATO</a>
         </nav>

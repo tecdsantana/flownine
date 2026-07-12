@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
-import DataAIPillars from '@/components/DataAIPillars';
 import Services from '@/components/Services';
 import HowItWorks from '@/components/HowItWorks';
 import Benefits from '@/components/Benefits';
@@ -10,7 +9,6 @@ import Testimonials from '@/components/Testimonials';
 import CalendarMeeting from '@/components/CalendarMeeting';
 import ComparisonTable from '@/components/ComparisonTable';
 import ContactForm from '@/components/ContactForm';
-import ClientTestimonials from '@/components/ClientTestimonials';
 import BtnWhatsappFloat from '@/components/BtnWhatsappFloat';
 import Footer from '@/components/Footer';
 import { Helmet } from 'react-helmet';
@@ -46,7 +44,6 @@ const Index = () => {
         <Navbar />
         <main>
           <HeroSection />
-          <DataAIPillars />
           <Services />
           <HowItWorks />
           <Benefits />
@@ -54,7 +51,6 @@ const Index = () => {
           <CalendarMeeting />
           <ComparisonTable />
           <ContactForm />
-          <ClientTestimonials />
         </main>
         <Footer />
       </div>

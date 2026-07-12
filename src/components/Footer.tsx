@@ -53,11 +53,9 @@ const Footer = () => {
             <h4 className="text-lg font-normal text-automato-gold mb-4 tracking-wider">SOLUÇÕES</h4>
             <div className="gold-line mb-6 w-16"></div>
             <ul className="space-y-3">
-              <li><a href="#data-ai" onClick={(e) => handleNavClick(e, 'data-ai')} className="text-white/60 hover:text-automato-gold transition-colors">Data&AI</a></li>
               <li><a href="#servicos" onClick={(e) => handleNavClick(e, 'servicos')} className="text-white/60 hover:text-automato-gold transition-colors">Serviços</a></li>
               <li><a href="#como-funciona" onClick={(e) => handleNavClick(e, 'como-funciona')} className="text-white/60 hover:text-automato-gold transition-colors">Como Funciona</a></li>
               <li><a href="#beneficios" onClick={(e) => handleNavClick(e, 'beneficios')} className="text-white/60 hover:text-automato-gold transition-colors">Benefícios</a></li>
-              <li><a href="#depoimentos" onClick={(e) => handleNavClick(e, 'depoimentos')} className="text-white/60 hover:text-automato-gold transition-colors">Depoimentos</a></li>
               <li><a href="#solucoes" onClick={(e) => handleNavClick(e, 'solucoes')} className="text-white/60 hover:text-automato-gold transition-colors">Soluções</a></li>
             </ul>
           </div>
