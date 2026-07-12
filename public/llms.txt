@@ -1,0 +1,14 @@
+# FlowNine
+
+> Consultoria de Dados, IA e People Analytics. Agentes de IA personalizados para automatizar processos, reduzir custos e aumentar a produtividade de empresas.
+
+FlowNine ajuda empresas a transformar dados em velocidade, eficiência e resultado — da arquitetura à operação, com foco em agentes de IA, GenAI, business analytics e people analytics.
+
+## Pages
+
+- [Home](/): Serviços, benefícios, comparativo, depoimentos e agendamento de diagnóstico gratuito.
+- [Blog](/blog): Artigos sobre inteligência artificial, automação de processos e transformação digital.
+
+## Optional
+
+- [Agendar Diagnóstico](/#contato): Formulário de contato para conversar com o time.
