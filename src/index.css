@@ -7,44 +7,44 @@
 
 @layer base {
   :root {
-    --background: 220 20% 3%;
+    --background: 150 25% 3%;
     --foreground: 0 0% 100%;
 
-    --card: 220 20% 5%;
+    --card: 150 25% 5%;
     --card-foreground: 0 0% 100%;
 
-    --popover: 220 20% 3%;
+    --popover: 150 25% 3%;
     --popover-foreground: 0 0% 100%;
 
-    --primary: 43 67% 58%;
+    --primary: 145 100% 61%;
     --primary-foreground: 0 0% 5%;
 
-    --secondary: 220 68% 33%;
+    --secondary: 160 84% 20%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 220 20% 10%;
-    --muted-foreground: 220 20% 70%;
+    --muted: 150 20% 10%;
+    --muted-foreground: 150 15% 70%;
 
-    --accent: 43 67% 20%;
-    --accent-foreground: 43 67% 58%;
+    --accent: 145 60% 18%;
+    --accent-foreground: 145 100% 61%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 20% 15%;
-    --input: 220 20% 15%;
-    --ring: 43 67% 58%;
+    --border: 150 20% 15%;
+    --input: 150 20% 15%;
+    --ring: 145 100% 61%;
 
     --radius: 0.375rem;
 
-    --sidebar-background: 220 20% 3%;
+    --sidebar-background: 150 20% 3%;
     --sidebar-foreground: 0 0% 100%;
-    --sidebar-primary: 43 67% 58%;
+    --sidebar-primary: 145 100% 61%;
     --sidebar-primary-foreground: 0 0% 5%;
-    --sidebar-accent: 220 20% 10%;
-    --sidebar-accent-foreground: 43 67% 58%;
-    --sidebar-border: 220 20% 15%;
-    --sidebar-ring: 43 67% 58%;
+    --sidebar-accent: 150 20% 10%;
+    --sidebar-accent-foreground: 145 100% 61%;
+    --sidebar-border: 150 20% 15%;
+    --sidebar-ring: 145 100% 61%;
   }
 }
 
@@ -68,34 +68,42 @@
   }
   
   .button-gradient {
-    @apply bg-automato-gold text-automato-black border border-automato-gold/50 hover:bg-automato-gold/90 hover:shadow-[0_0_15px_rgba(212,175,55,0.5)] transition-all duration-300;
+    @apply bg-automato-gold text-automato-black border border-automato-gold/50 hover:bg-automato-gold/90 hover:shadow-[0_0_20px_rgba(57,255,136,0.6)] hover:scale-[1.03] transition-all duration-300;
   }
-  
+
   .section-padding {
     @apply py-16 md:py-24;
   }
-  
+
   .container-padding {
     @apply px-4 md:px-6 lg:px-8;
   }
-  
+
   .futuristic-border {
-    @apply border border-automato-gold/30 shadow-[0_0_10px_rgba(212,175,55,0.2)];
+    @apply border border-automato-gold/30 shadow-[0_0_10px_rgba(57,255,136,0.2)];
   }
-  
+
   .futuristic-card {
-    @apply bg-gradient-to-br from-automato-black to-automato-dark-blue rounded-md futuristic-border backdrop-blur-sm;
+    @apply bg-gradient-to-br from-automato-black to-automato-dark-blue rounded-md futuristic-border backdrop-blur-sm transition-all duration-300 hover:border-automato-gold/60 hover:shadow-[0_0_18px_rgba(57,255,136,0.25)];
   }
-  
+
   .gold-line {
     @apply h-px bg-gradient-to-r from-transparent via-automato-gold/70 to-transparent;
   }
-  
+
   .blue-glow {
-    @apply shadow-[0_0_15px_rgba(37,99,235,0.3)];
+    @apply shadow-[0_0_15px_rgba(16,185,129,0.35)];
   }
-  
+
   .gold-glow {
-    @apply shadow-[0_0_15px_rgba(212,175,55,0.3)];
+    @apply shadow-[0_0_15px_rgba(57,255,136,0.35)];
+  }
+
+  .scroll-reveal {
+    @apply opacity-0 translate-y-6 transition-all duration-700 ease-out;
+  }
+
+  .scroll-reveal.is-visible {
+    @apply opacity-100 translate-y-0;
   }
 }

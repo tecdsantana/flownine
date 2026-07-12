@@ -1,16 +1,19 @@
 
 import React from 'react';
 import { CheckCircle } from 'lucide-react';
+import { useScrollReveal } from '@/hooks/use-scroll-reveal';
 const HowItWorks = () => {
+  const headingReveal = useScrollReveal<HTMLDivElement>();
+  const gridReveal = useScrollReveal<HTMLDivElement>();
   return <section id="como-funciona" className="section-padding bg-automato-black">
       <div className="container mx-auto container-padding">
-        <div className="text-center mb-16">
+        <div ref={headingReveal} className="scroll-reveal text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Como Funciona</h2>
           <div className="h-1 w-24 bg-gradient-to-r from-automato-blue to-automato-gold mx-auto mb-6"></div>
           <p className="text-lg text-white/70 max-w-2xl mx-auto">A IA otimiza seus gastos, permitindo que sua equipe foque no que realmente importa: as pessoas.</p>
         </div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <div ref={gridReveal} className="scroll-reveal grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Step 1 */}
           <div className="bg-automato-dark-blue/40 p-8 rounded-xl shadow-lg border border-automato-gold/20 hover:gold-glow transition-shadow futuristic-card">
             <div className="h-14 w-14 rounded-full bg-automato-blue/10 flex items-center justify-center mb-6 border border-automato-gold/30">

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import NeuralWaveBackground from "@/components/NeuralWaveBackground";
 const HeroSection = () => {
   const scrollToContact = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -31,21 +32,22 @@ const HeroSection = () => {
   };
 
   return <section className="pt-32 md:pt-40 pb-24 md:pb-32 relative overflow-hidden bg-futuristic-gradient">
-      <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_center,_rgba(30,58,138,0.15),transparent_70%)] opacity-70"></div>
+      <NeuralWaveBackground spacing={30} intensity={0.9} focal={{ x: 0.72, y: 0.3 }} />
+      <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_center,_rgba(16,185,129,0.15),transparent_70%)] opacity-70"></div>
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-bl from-automato-blue/5 to-transparent blur-3xl"></div>
-      
+
       {/* Decorative elements */}
       <div className="absolute top-1/4 left-10 w-32 h-32 border border-automato-gold/20 rounded-full opacity-20"></div>
       <div className="absolute bottom-1/4 right-10 w-64 h-64 border border-automato-gold/10 rounded-full opacity-10"></div>
-      
+
       <div className="container mx-auto relative z-10 container-padding">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-light mb-6 leading-tight max-w-3xl tracking-wider text-white">
-              Revolucione seus negócios com <span className="heading-gradient font-normal">Agentes de IA Automatizados</span>
+              Consultoria de <span className="heading-gradient font-normal">Dados, IA e People Analytics</span> para empresas
             </h1>
             <p className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl">
-              Potencialize sua produtividade e transforme seus processos com soluções de automação inteligente sob medida para o seu negócio.
+              Somos o time de Dados e IA para grandes empresas. Da arquitetura à operação, ajudamos a transformar dados em velocidade, eficiência e resultado.
             </p>
             <div className="flex flex-col sm:flex-row gap-5">
               <Button size="lg" className="button-gradient gold-glow text-base tracking-wide flex gap-2" onClick={scrollToCalendarMeeting}>

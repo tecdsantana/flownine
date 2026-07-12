@@ -64,13 +64,13 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				automato: {
-					gold: '#D4AF37',
-					'light-gold': '#E5C76B',
-					'dark-gold': '#BF9B30',
-					blue: '#1E3A8A',
-					'neon-blue': '#2563EB',
-					'dark-blue': '#111827',
-					black: '#050505',
+					gold: '#39FF88',
+					'light-gold': '#8CFFC7',
+					'dark-gold': '#0F5132',
+					blue: '#064E3B',
+					'neon-blue': '#10B981',
+					'dark-blue': '#0A120D',
+					black: '#050705',
 				},
 			},
 			borderRadius: {
@@ -110,8 +110,8 @@ export default {
 					'100%': { opacity: '1', transform: 'translateY(0)' },
 				},
 				'pulse-glow': {
-					'0%, 100%': { boxShadow: '0 0 5px 0px rgba(212, 175, 55, 0.4)' },
-					'50%': { boxShadow: '0 0 15px 2px rgba(212, 175, 55, 0.7)' },
+					'0%, 100%': { boxShadow: '0 0 5px 0px rgba(57, 255, 136, 0.4)' },
+					'50%': { boxShadow: '0 0 15px 2px rgba(57, 255, 136, 0.7)' },
 				}
 			},
 			animation: {
@@ -123,9 +123,9 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-				'hero-pattern': 'linear-gradient(to right, #1E3A8A, #2563EB)',
-				'futuristic-gradient': 'linear-gradient(to bottom right, #050505, #111827, #0A0F1C)',
-				'gold-gradient': 'linear-gradient(to right, #D4AF37, #E5C76B)',
+				'hero-pattern': 'linear-gradient(to right, #064E3B, #10B981)',
+				'futuristic-gradient': 'linear-gradient(to bottom right, #050705, #0A120D, #060D08)',
+				'gold-gradient': 'linear-gradient(to right, #39FF88, #8CFFC7)',
 			}
 		}
 	},

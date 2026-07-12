@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
+import DataAIPillars from '@/components/DataAIPillars';
+import Services from '@/components/Services';
 import HowItWorks from '@/components/HowItWorks';
 import Benefits from '@/components/Benefits';
 import Testimonials from '@/components/Testimonials';
@@ -31,11 +33,11 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Flownine | AI First</title>
-        <meta name="description" content="Transforme seu negócio com automação inteligente. Agentes de IA personalizados para otimizar processos, reduzir custos e aumentar produtividade." />
-        <meta name="keywords" content="automação, inteligência artificial, agentes de IA, processos automatizados, produtividade, transformação digital" />
-        <meta property="og:title" content="FlowNine | Agentes de IA para Automatizar seu Negócio" />
-        <meta property="og:description" content="Transforme seu negócio com automação inteligente. Agentes de IA personalizados para otimizar processos, reduzir custos e aumentar produtividade." />
+        <title>FlowNine | Consultoria de Dados, IA e People Analytics</title>
+        <meta name="description" content="Consultoria de Dados, IA e People Analytics para empresas. Da arquitetura à operação, ajudamos a transformar dados em velocidade, eficiência e resultado." />
+        <meta name="keywords" content="consultoria de dados, inteligência artificial, people analytics, business analytics, agentic AI, GenAI, data governance" />
+        <meta property="og:title" content="FlowNine | Consultoria de Dados, IA e People Analytics" />
+        <meta property="og:description" content="Consultoria de Dados, IA e People Analytics para empresas. Da arquitetura à operação, ajudamos a transformar dados em velocidade, eficiência e resultado." />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://flownine.com.br" />
       </Helmet>
@@ -43,6 +45,8 @@ const Index = () => {
         <Navbar />
         <main>
           <HeroSection />
+          <DataAIPillars />
+          <Services />
           <HowItWorks />
           <Benefits />
           <Testimonials />
