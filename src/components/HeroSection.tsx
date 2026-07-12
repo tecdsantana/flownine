@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import NeuralWaveBackground from "@/components/NeuralWaveBackground";
+import TechStackMarquee from "@/components/TechStackMarquee";
 const HeroSection = () => {
   const scrollToContact = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -58,15 +59,7 @@ const HeroSection = () => {
                 CONHECER SOLUÇÕES
               </Button>
             </div>
-            <div className="mt-10 flex items-center">
-              <div className="flex -space-x-2">
-                <div className="w-8 h-8 rounded-full bg-automato-neon-blue border-2 border-automato-gold/30 flex items-center justify-center text-xs text-white">JM</div>
-                <div className="w-8 h-8 rounded-full bg-automato-blue border-2 border-automato-gold/30 flex items-center justify-center text-xs text-white">KL</div>
-                <div className="w-8 h-8 rounded-full bg-automato-dark-blue border-2 border-automato-gold/30 flex items-center justify-center text-xs text-white">RB</div>
-                <div className="w-8 h-8 rounded-full bg-automato-black border-2 border-automato-gold/30 flex items-center justify-center text-xs text-automato-gold">+</div>
-              </div>
-              <p className="ml-4 text-sm text-white/70">+20 empresas já transformaram seus negócios</p>
-            </div>
+            <TechStackMarquee />
           </div>
           <div className="flex-1 max-w-lg">
             <div className="relative">
