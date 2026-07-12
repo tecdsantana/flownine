@@ -6,9 +6,9 @@ import { createClient } from "@supabase/supabase-js";
 
 const BASE_URL = "https://flownine.lovable.app";
 
-const SUPABASE_URL = "https://gjgfevzzonppzxftaxgh.supabase.co";
+const SUPABASE_URL = "https://vsbbuvvouvnyibengsni.supabase.co";
 const SUPABASE_ANON_KEY =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdqZ2Zldnp6b25wcHp4ZnRheGdoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg5NjMyMzIsImV4cCI6MjA4NDUzOTIzMn0.2mkQizGIpuEY6BWVE7crpXf9Zz6k5t2GqFKmzD3LHF0";
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZzYmJ1dnZvdXZueWliZW5nc25pIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzg0MzY0MTIsImV4cCI6MjA1NDAxMjQxMn0.Bgu9EXnPYjG34Jg9LhI1kHAis50o-64oqyjL1je-9Hg";
 
 interface SitemapEntry {
   path: string;

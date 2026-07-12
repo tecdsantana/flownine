@@ -1,0 +1,50 @@
+-- Despublica (soft-delete, reversível) os 42 artigos fora do tema Dados/IA/People Analytics
+UPDATE public.blog_posts
+SET published = false
+WHERE id IN (
+  'd9a64fbb-b7a3-42ef-b8b7-859ebdf5140c',
+  '524ee08a-2a33-486e-b433-54439f292b69',
+  'af994f4f-0b5b-467f-8794-f075cd142513',
+  '1efc37af-33b6-408c-82bb-cc4b76752b1b',
+  '74a05aa5-c62b-45b0-83ad-2d13bb87dc56',
+  'cdf61117-1702-47df-b174-67515bb587af',
+  '5e68bfb3-2fb8-4c2d-91e4-81fb064dc938',
+  'b5295e3e-397f-4846-85b1-c890d5506ad0',
+  '977cb951-b725-4eea-b8d0-0b10e2eac296',
+  '2fb9edb3-21ff-4ae6-90d9-b5a177e8fba7',
+  '2fcbec33-e4b6-435c-83f7-5f7e795e5cd2',
+  'c52b3e67-23b3-4ed9-bf15-fd56d7dfedad',
+  'cf392da8-9a08-4e8b-8792-9a0fbb138382',
+  'dc4e6c03-5895-432c-bfb0-53136f4434f7',
+  '1501bf99-a9da-43ef-b019-8aa923d3d33c',
+  '6fd4a1f5-3951-47da-a1ee-45b398935dfb',
+  'e74c1522-ba62-49ce-817d-e944ee3568fc',
+  'ca0e4595-faea-4111-9996-c2374a078bde',
+  '4b7c9a8f-61ef-4a25-bce0-40643112359a',
+  '0b03c0f1-4975-4bf2-beef-0282fa902510',
+  'ff82671d-3521-447b-9e48-241f9277d7ca',
+  '7a74250e-3e60-4ef9-9e92-d3557bdf0386',
+  'cef9d9d9-31d4-4368-8c42-d8cf4df8f889',
+  '19fd2072-93ce-47e1-8d44-96f0b61b5d49',
+  'b7c9216e-ad42-4d1a-93db-909ed180dd0d',
+  'ee0e5a2a-55e8-4710-908a-03f65b32b9fa',
+  'e8164af4-b74f-4fb9-8297-910ad4d48c66',
+  '3e10f361-84ab-41f5-9c78-7cfc355daec2',
+  'f684124f-7f23-483b-84d4-2ac9de50ead5',
+  '548f7e38-c1d1-4b7e-9bb2-1b093db27d76',
+  '0d003dd2-5118-4c8c-9768-677848d46f13',
+  'f42d43f3-884f-4160-a734-bf6d30bba6a8',
+  '95554f4f-2787-4747-bd5b-6df74fe169c0',
+  'dc526a45-d879-47ad-9123-3342bbb7907a',
+  'f9493b45-9dc9-4895-9a23-5d348d688d48',
+  '7fdeb9a2-ba0e-49cc-a07a-be1f9213bf57',
+  'fa8822eb-433d-46a7-ae00-391ae279e924',
+  'a487beae-8fbf-4998-a84f-5207e03f3ce4',
+  'ce720e20-ddd2-4f87-883d-fc8fc394dcbf',
+  'd5098ebb-7446-4ff3-8c39-5b55ab152579',
+  'a8402f90-d396-42bc-b2df-b9525af6e57c',
+  '434a56b4-a222-48dd-8689-cd3c5c865aa9'
+);
+
+-- Para reverter (voltar a publicar todos), rode:
+-- UPDATE public.blog_posts SET published = true WHERE id IN (...)
