@@ -1,7 +1,14 @@
 import React from 'react';
-import { TrendingUp, Users, Database, Target } from 'lucide-react';
+import { TrendingUp } from 'lucide-react';
 import { useScrollReveal } from '@/hooks/use-scroll-reveal';
+import isaEnergiaImg from '@/assets/cases/isa-energia.jpg';
+import picpayDataImg from '@/assets/cases/picpay-data.jpg';
+import naturaMetasImg from '@/assets/cases/natura-metas.jpg';
 
+// Fotos: Wikimedia Commons, licença CC BY
+// - Umberto Salvagnin, "Italy, Veneto, 380 kV power line at sunset"
+// - BalticServers.com, "BalticServers data center"
+// - Rawpixel Ltd, "Business people discussing in the cafe"
 const cases = [
   {
     badge: 'ISA ENERGIA',
@@ -9,7 +16,8 @@ const cases = [
     description:
       'Modelo preditivo identifica colaboradores com maior risco de saída — e o motivo. RH passa a agir com semanas de antecedência, em vez de descobrir no aviso prévio.',
     stats: '+1.500 colaboradores monitorados · risco previsto mensalmente · ações de retenção antes do desligamento',
-    Icon: Users,
+    image: isaEnergiaImg,
+    imagePosition: 'object-center',
   },
   {
     badge: 'PICPAY',
@@ -17,7 +25,8 @@ const cases = [
     description:
       'Centralizamos, normalizamos e limpamos as bases de RH em um banco de dados único, com dashboards disponibilizados para executivos das áreas e para o RH como um todo.',
     stats: '+100 pessoas acessando dados · ganho de performance nos relatórios · análises dedicadas para cada área',
-    Icon: Database,
+    image: picpayDataImg,
+    imagePosition: 'object-center',
   },
   {
     badge: 'NATURA &CO',
@@ -25,7 +34,8 @@ const cases = [
     description:
       'Análise semântica de mais de 80 mil metas de colaboradores, medindo a aderência de cada meta à estratégia da empresa e ao objetivo do gestor direto.',
     stats: '+80.000 metas analisadas · aderência estratégica de 62% para 80% · colaborador e gestor na mesma página',
-    Icon: Target,
+    image: naturaMetasImg,
+    imagePosition: 'object-[center_25%]',
   },
 ];
 
@@ -45,14 +55,19 @@ const SuccessCases = () => {
         </div>
 
         <div ref={gridReveal} className="scroll-reveal grid grid-cols-1 md:grid-cols-3 gap-8">
-          {cases.map(({ badge, title, description, stats, Icon }) => (
+          {cases.map(({ badge, title, description, stats, image, imagePosition }) => (
             <div
               key={badge}
               className="rounded-2xl overflow-hidden border border-automato-gold/20 bg-automato-dark-blue/40 futuristic-card hover:gold-glow transition-shadow"
             >
-              <div className="relative h-56 overflow-hidden bg-gradient-to-br from-automato-blue via-automato-dark-blue to-automato-black">
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(57,255,136,0.18),transparent_60%)]" />
-                <Icon className="absolute -right-6 -bottom-6 h-40 w-40 text-automato-gold/10" strokeWidth={1} />
+              <div className="relative h-56 overflow-hidden">
+                <img
+                  src={image}
+                  alt={title}
+                  className={`w-full h-full object-cover ${imagePosition}`}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-automato-black via-automato-black/10 to-transparent" />
+                <div className="absolute inset-0 bg-automato-black/20" />
               </div>
               <div className="p-8">
                 <span className="inline-block text-xs tracking-widest text-automato-gold border border-automato-gold/40 rounded-full px-3 py-1 font-mono mb-4">
