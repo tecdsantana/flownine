@@ -30,6 +30,7 @@ const Footer = () => {
             <p className="text-white/60 mb-6">
               Consultoria de Dados, IA e People Analytics para empresas. Da arquitetura à operação.
             </p>
+            <p className="text-white/60 text-sm mb-4">CNPJ 45.217.293/0001-00</p>
             <div className="flex space-x-4">
               <a href="https://www.linkedin.com/company/flownine" target="_blank" rel="noopener noreferrer" className="h-10 w-10 rounded-full border border-automato-gold/40 flex items-center justify-center hover:bg-automato-gold/10 hover:border-automato-gold transition-colors" aria-label="LinkedIn da FlowNine">
                 <Linkedin className="h-5 w-5 text-automato-gold" />
@@ -41,7 +42,6 @@ const Footer = () => {
                 </svg>
               </a>
             </div>
-            <p className="text-white/60 text-sm mt-4">CNPJ 45.217.293/0001-00</p>
           </div>
           
           <div>
