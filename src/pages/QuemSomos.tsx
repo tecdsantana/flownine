@@ -13,6 +13,51 @@ const stats = [
   { value: '2h → 5min', label: 'tempo de processamento de dados reduzido no Banco Safra' },
 ];
 
+const timeline = [
+  {
+    period: '2014 – 2016',
+    role: 'Data Engineer — BI & Pricing',
+    company: 'GPA — Grupo Pão de Açúcar',
+    description:
+      'Liderou a arquitetura de um banco de dados SQL para todo o grupo, escalando o acesso à informação de 10 para mais de 100 usuários, e construiu ferramentas de precificação que ajudaram a impulsionar cerca de 20% de crescimento em vendas.',
+  },
+  {
+    period: '2016 – 2020',
+    role: 'People Analytics Consultant',
+    company: 'Banco Safra',
+    description:
+      'Implementou do zero um banco de dados SQL Server com ETL automatizado, reduzindo o tempo de processamento de 2 horas para 5 minutos, e passou a entregar dashboards executivos com Power BI e SSRS para toda a liderança de RH.',
+  },
+  {
+    period: '2020 – 2022',
+    role: 'Senior People Analytics',
+    company: 'PicPay',
+    description:
+      'Foi responsável por democratizar dados de RH em uma das maiores fintechs do Brasil, criando a primeira camada estruturada de reporting de pessoas, além de liderar uma análise de sentimento durante a pandemia para identificar risco de burnout em mais de 1.200 colaboradores.',
+  },
+  {
+    period: '2022 – 2023',
+    role: 'Analytics Engineering Manager',
+    company: 'Marvin',
+    description:
+      'Liderou um time de 4 analistas e migrou processos inteiros de planilhas Excel para dashboards em tempo real (Grafana e Power BI), reduzindo o atraso de relatórios de 2 dias para tempo real numa fintech de antecipação de recebíveis.',
+  },
+  {
+    period: '2023 – 2025',
+    role: 'People Analytics Coordinator (LATAM)',
+    company: 'Natura &Co',
+    description:
+      'Construiu um modelo preditivo de turnover voluntário, um motor de análise semântica com LLMs para mais de 80 mil metas de colaboradores (elevando a aderência estratégica de 62% para 80%), e ferramentas de redesenho organizacional para uma multinacional com mais de 20 mil pessoas.',
+  },
+  {
+    period: '2025 – atual',
+    role: 'Data Analytics Lead',
+    company: 'MDR',
+    description:
+      'Estabeleceu um framework de governança de dados do zero e migrou relatórios manuais para uma arquitetura em tempo real na AWS, sustentando a inteligência comercial e financeira de uma fintech B2B.',
+  },
+];
+
 const QuemSomos = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -67,6 +112,32 @@ const QuemSomos = () => {
               <p className="text-white font-semibold">
                 A FlowNine nasceu para resolver exatamente isso.
               </p>
+            </div>
+          </section>
+
+          <section className="container mx-auto container-padding max-w-3xl py-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-10 text-center">Trajetória</h2>
+            <div className="space-y-8">
+              {timeline.map((item) => (
+                <div
+                  key={item.company}
+                  className="flex flex-col md:flex-row gap-4 md:gap-8 pb-8 border-b border-white/10 last:border-b-0"
+                >
+                  <div className="md:w-40 shrink-0">
+                    <span className="text-sm font-mono text-automato-gold">{item.period}</span>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-white">{item.role}</h3>
+                    <p className="text-sm text-automato-gold/80 mb-2">{item.company}</p>
+                    <p className="text-white/70">{item.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <section className="container mx-auto container-padding max-w-3xl pb-8">
+            <div className="prose prose-invert max-w-none space-y-6 text-white/80 text-lg leading-relaxed">
               <p>
                 Hoje, aplicamos mais de uma década de experiência prática — arquitetura de dados, BI,
                 People Analytics e Inteligência Artificial aplicada a negócio — para ajudar empresas
