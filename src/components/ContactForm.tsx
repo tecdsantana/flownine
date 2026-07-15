@@ -82,7 +82,7 @@ const ContactForm = () => {
             <h2 className="text-3xl md:text-4xl font-light tracking-wider mb-6 text-white">Vamos transformar seu negócio <span className="heading-gradient">juntos</span></h2>
             <div className="gold-line mb-8 w-24"></div>
             <p className="text-lg text-white/80 mb-8">
-              Preencha o formulário para um diagnóstico gratuito e descubra como nossos agentes de IA podem automatizar seus processos e impulsionar seus resultados.
+              Preencha o formulário para um diagnóstico gratuito e descubra como estruturar seus dados, dashboards e IA para gerar resultado real no seu negócio.
             </p>
             <div className="space-y-6">
               <div className="flex items-start">
@@ -92,7 +92,7 @@ const ContactForm = () => {
                 <div>
                   <h3 className="font-normal text-automato-gold mb-1">Análise Gratuita</h3>
                   <p className="text-white/70">
-                    Avaliamos seus processos atuais e identificamos oportunidades de automação sem compromisso.
+                    Avaliamos sua maturidade de dados e identificamos as oportunidades de analytics e IA com maior potencial de impacto, sem compromisso.
                   </p>
                 </div>
               </div>
@@ -103,7 +103,7 @@ const ContactForm = () => {
                 <div>
                   <h3 className="font-normal text-automato-gold mb-1">Soluções Personalizadas</h3>
                   <p className="text-white/70">
-                    Desenvolvemos agentes de IA adaptados às necessidades específicas do seu negócio.
+                    Desenvolvemos arquiteturas de dados, dashboards e soluções de IA sob medida para as necessidades específicas do seu negócio.
                   </p>
                 </div>
               </div>
