@@ -43,11 +43,11 @@ const HeroSection = () => {
 
       <div className="container mx-auto relative z-10 container-padding">
         <div className="flex flex-col lg:flex-row items-center gap-12">
-          <div className="flex-1 animate-fade-in">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light mb-6 leading-tight max-w-3xl tracking-wider text-white">
+          <div className="flex-1 w-full animate-fade-in">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light mb-6 leading-tight max-w-full lg:max-w-3xl tracking-wider text-white">
               Consultoria de <span className="heading-gradient font-normal">Dados, IA e People Analytics</span> para empresas
             </h1>
-            <p className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl">
+            <p className="text-lg md:text-xl text-white/80 mb-10 max-w-full lg:max-w-2xl">
               Somos o time de Dados e IA para grandes empresas. Da arquitetura à operação, ajudamos a transformar dados em velocidade, eficiência e resultado.
             </p>
             <div className="flex flex-col sm:flex-row gap-5">
