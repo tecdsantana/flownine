@@ -131,9 +131,11 @@ const ComparisonTable = () => {
           <div className="max-w-2xl text-center">
             <h3 className="text-xl md:text-2xl font-bold mb-4 text-white">Por que escolher a FlowNine?</h3>
             <p className="text-white/70">
-              Nossa plataforma oferece soluções de automação com agentes de IA de alta performance, 
-              implementação rápida e sem complicações, com suporte contínuo da nossa equipe especializada.
-              Economize tempo, reduza custos e maximize resultados com um serviço simples de iniciar e fácil de cancelar.
+              Somos o time de dados, analytics e IA que grandes empresas chamam para transformar
+              informação dispersa em decisão rápida — com arquitetura sólida, governança e o mesmo
+              rigor técnico que já reduziu relatórios de horas para minutos e elevou resultados
+              estratégicos em operações de milhares de pessoas. Sem letra miúda: conhecimento que
+              fica com o seu time, não com o fornecedor.
             </p>
           </div>
         </div>
