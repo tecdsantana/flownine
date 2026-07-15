@@ -60,7 +60,7 @@ const Footer = () => {
             <div className="gold-line mb-6 w-16"></div>
             <ul className="space-y-3">
               <li><Link to="/quem-somos" className="text-white/60 hover:text-automato-gold transition-colors">Quem Somos</Link></li>
-              <li><a href="#cases" onClick={(e) => handleNavClick(e, 'cases')} className="text-white/60 hover:text-automato-gold transition-colors">Cases de Sucesso</a></li>
+              <li><a href="#solucoes" onClick={(e) => handleNavClick(e, 'solucoes')} className="text-white/60 hover:text-automato-gold transition-colors">Cases de Sucesso</a></li>
               <li><a href="/blog" className="text-white/60 hover:text-automato-gold transition-colors">Blog</a></li>
               <li><a href="#contato" onClick={(e) => handleNavClick(e, 'contato')} className="text-white/60 hover:text-automato-gold transition-colors">Contato</a></li>
             </ul>
