@@ -64,7 +64,6 @@ const Navbar = () => {
           <a href="#como-funciona" onClick={(e) => handleNavClick(e, 'como-funciona')} className="text-white/80 hover:text-automato-gold transition-colors text-sm tracking-wider">COMO FUNCIONA</a>
           <a href="#beneficios" onClick={(e) => handleNavClick(e, 'beneficios')} className="text-white/80 hover:text-automato-gold transition-colors text-sm tracking-wider">BENEFÍCIOS</a>
           <a href="#solucoes" onClick={(e) => handleNavClick(e, 'solucoes')} className="text-white/80 hover:text-automato-gold transition-colors text-sm tracking-wider">SOLUÇÕES</a>
-          <a href="/blog" className="text-white/80 hover:text-automato-gold transition-colors text-sm tracking-wider">BLOG</a>
           <a href="#contato" onClick={(e) => handleNavClick(e, 'contato')} className="text-white/80 hover:text-automato-gold transition-colors text-sm tracking-wider">CONTATO</a>
         </nav>
         
