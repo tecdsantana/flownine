@@ -23,10 +23,10 @@ const Benefits = () => {
     <section id="beneficios" className="section-padding bg-automato-black">
       <div className="container mx-auto container-padding">
         <div ref={headingReveal} className="scroll-reveal text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Benefícios das Automações com IA</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Benefícios de uma Operação Data-Driven</h2>
           <div className="h-1 w-24 bg-gradient-to-r from-automato-blue to-automato-gold mx-auto mb-6"></div>
           <p className="text-lg text-white/70 max-w-3xl mx-auto">
-            Nossas soluções de automação com IA trazem resultados comprovados para empresas de diversos segmentos.
+            Dados bem estruturados mudam a forma como sua empresa decide, executa e cresce.
           </p>
         </div>
 
@@ -37,9 +37,9 @@ const Benefits = () => {
             <div className="h-12 w-12 rounded-lg bg-automato-blue/20 flex items-center justify-center mb-5">
               <Clock className="h-6 w-6 text-automato-gold" />
             </div>
-            <h3 className="text-xl font-bold mb-3 text-white">Economia de Tempo</h3>
+            <h3 className="text-xl font-bold mb-3 text-white">Decisões em Minutos, Não em Dias</h3>
             <p className="text-white/70">
-              Reduza em até 80% o tempo gasto em tarefas repetitivas, liberando sua equipe para atividades estratégicas.
+              Relatórios que levavam dias para ficar prontos passam a estar disponíveis em tempo real, liberando sua equipe para decisões estratégicas.
             </p>
           </div>
 
@@ -48,9 +48,9 @@ const Benefits = () => {
             <div className="h-12 w-12 rounded-lg bg-automato-blue/20 flex items-center justify-center mb-5">
               <TrendingUp className="h-6 w-6 text-automato-gold" />
             </div>
-            <h3 className="text-xl font-bold mb-3 text-white">Aumento de Produtividade</h3>
+            <h3 className="text-xl font-bold mb-3 text-white">Mais Eficiência Operacional</h3>
             <p className="text-white/70">
-              Impulsione a eficiência operacional em até 200% com processos automatizados que funcionam 24/7.
+              Elimine o retrabalho manual em planilhas e ganhe até 200% de produtividade com pipelines de dados automatizados e confiáveis.
             </p>
           </div>
 
@@ -59,9 +59,9 @@ const Benefits = () => {
             <div className="h-12 w-12 rounded-lg bg-automato-blue/20 flex items-center justify-center mb-5">
               <Search className="h-6 w-6 text-automato-gold" />
             </div>
-            <h3 className="text-xl font-bold mb-3 text-white">Redução de Erros</h3>
+            <h3 className="text-xl font-bold mb-3 text-white">Dados Confiáveis, Menos Retrabalho</h3>
             <p className="text-white/70">
-              Minimize erros humanos e inconsistências com processos automatizados de alta precisão.
+              Governança e qualidade de dados reduzem inconsistências e eliminam o tempo gasto corrigindo números errados.
             </p>
           </div>
 
@@ -70,9 +70,9 @@ const Benefits = () => {
             <div className="h-12 w-12 rounded-lg bg-automato-blue/20 flex items-center justify-center mb-5">
               <Users className="h-6 w-6 text-automato-gold" />
             </div>
-            <h3 className="text-xl font-bold mb-3 text-white">Experiência do Cliente</h3>
+            <h3 className="text-xl font-bold mb-3 text-white">Decisões Alinhadas em Toda a Empresa</h3>
             <p className="text-white/70">
-              Ofereça respostas instantâneas e personalizadas para seus clientes, aumentando a satisfação.
+              Dashboards e definições únicas de métricas garantem que todas as áreas enxerguem os mesmos números — e cheguem às mesmas conclusões.
             </p>
           </div>
 
@@ -81,9 +81,9 @@ const Benefits = () => {
             <div className="h-12 w-12 rounded-lg bg-automato-blue/20 flex items-center justify-center mb-5">
               <Zap className="h-6 w-6 text-automato-gold" />
             </div>
-            <h3 className="text-xl font-bold mb-3 text-white">Escalabilidade</h3>
+            <h3 className="text-xl font-bold mb-3 text-white">Escala Sem Aumentar Complexidade</h3>
             <p className="text-white/70">
-              Escale suas operações rapidamente sem a necessidade de contratar mais pessoal para tarefas operacionais.
+              Arquiteturas de dados bem desenhadas crescem junto com o seu negócio, sem exigir mais headcount para sustentar a operação.
             </p>
           </div>
 
@@ -92,9 +92,9 @@ const Benefits = () => {
             <div className="h-12 w-12 rounded-lg bg-automato-blue/20 flex items-center justify-center mb-5">
               <CheckCircle className="h-6 w-6 text-automato-gold" />
             </div>
-            <h3 className="text-xl font-bold mb-3 text-white">ROI Comprovado</h3>
+            <h3 className="text-xl font-bold mb-3 text-white">ROI Mensurável</h3>
             <p className="text-white/70">
-              Obtenha retorno sobre o investimento em menos de 3 meses com nossas soluções de automação.
+              Cada projeto de dados e IA nasce com metas claras de impacto — e resultado comprovado em menos de 3 meses.
             </p>
           </div>
         </div>
@@ -104,7 +104,7 @@ const Benefits = () => {
           <div className="relative z-10">
             <h3 className="text-2xl md:text-3xl font-bold mb-4">Pronto para transformar seu negócio?</h3>
             <p className="text-lg mb-8 max-w-2xl mx-auto text-white/80">
-              Agende uma consulta gratuita e descubra como nossos agentes de IA podem automatizar seus processos.
+              Agende uma consulta gratuita e descubra como estruturar seus dados para gerar resultado real.
             </p>
             <Button
               size="lg"

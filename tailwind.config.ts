@@ -79,7 +79,7 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
+				sans: ['Space Grotesk', 'sans-serif'],
 			},
 			letterSpacing: {
 				'wider-plus': '0.1em',

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Logo from './Logo';
 import { Linkedin } from 'lucide-react';
 
@@ -59,7 +59,7 @@ const Footer = () => {
             <h4 className="text-lg font-normal text-automato-gold mb-4 tracking-wider">EMPRESA</h4>
             <div className="gold-line mb-6 w-16"></div>
             <ul className="space-y-3">
-              <li><a href="#sobre" onClick={(e) => handleNavClick(e, 'sobre')} className="text-white/60 hover:text-automato-gold transition-colors">Sobre Nós</a></li>
+              <li><Link to="/quem-somos" className="text-white/60 hover:text-automato-gold transition-colors">Quem Somos</Link></li>
               <li><a href="#cases" onClick={(e) => handleNavClick(e, 'cases')} className="text-white/60 hover:text-automato-gold transition-colors">Cases de Sucesso</a></li>
               <li><a href="/blog" className="text-white/60 hover:text-automato-gold transition-colors">Blog</a></li>
               <li><a href="#contato" onClick={(e) => handleNavClick(e, 'contato')} className="text-white/60 hover:text-automato-gold transition-colors">Contato</a></li>
