@@ -10,7 +10,7 @@ const ComparisonTable = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Compare as suas Opções</h2>
           <p className="text-lg text-white/70 max-w-3xl mx-auto">
-            Descubra por que a FlowNine é a escolha mais inteligente para automatizar seus processos de negócio
+            Descubra por que a FlowNine é a escolha mais inteligente para estruturar dados, analytics e IA na sua empresa
           </p>
         </div>
 
@@ -57,71 +57,71 @@ const ComparisonTable = () => {
             </TableHeader>
             <TableBody className="bg-automato-dark-blue/30">
               <TableRow className="border-b border-automato-gold/10">
-                <TableCell className="font-medium py-6 text-white" scope="row">Tempo para contratar</TableCell>
+                <TableCell className="font-medium py-6 text-white" scope="row">Tempo para gerar valor</TableCell>
                 <TableCell>
                   <div className="flex justify-center">
-                    <span className="bg-automato-blue text-white text-sm px-3 py-1 rounded-full border border-automato-gold/30">Poucas Horas</span>
+                    <span className="bg-automato-blue text-white text-sm px-3 py-1 rounded-full border border-automato-gold/30">Semanas, não meses</span>
                   </div>
                 </TableCell>
-                <TableCell className="text-center text-white/70">5-7 dias</TableCell>
-                <TableCell className="text-center text-white/70">Meses</TableCell>
-                <TableCell className="text-center text-white/70">2-3 Semanas</TableCell>
+                <TableCell className="text-center text-white/70">Depende da disponibilidade</TableCell>
+                <TableCell className="text-center text-white/70">
+                  Meses de contratação<br />e ramp-up
+                </TableCell>
+                <TableCell className="text-center text-white/70">Trimestres</TableCell>
               </TableRow>
-              
+
               <TableRow className="border-b border-automato-gold/10">
-                <TableCell className="font-medium py-6 text-white" scope="row">Nível de Experiência</TableCell>
+                <TableCell className="font-medium py-6 text-white" scope="row">Senioridade do time</TableCell>
                 <TableCell>
                   <div className="flex justify-center">
-                    <span className="bg-automato-blue text-white text-sm px-3 py-1 rounded-full border border-automato-gold/30">Nível Sênior</span>
+                    <span className="bg-automato-blue text-white text-sm px-3 py-1 rounded-full border border-automato-gold/30">
+                      Especialistas seniores, ponta a ponta
+                    </span>
                   </div>
                 </TableCell>
                 <TableCell className="text-center text-white/70">
-                  Iniciante ou<br />Nível Junior
+                  Variável, sem histórico<br />validado
                 </TableCell>
                 <TableCell className="text-center text-white/70">
-                  Boa (Cruze os<br />dedos)
+                  Depende de quem<br />você contratar
                 </TableCell>
                 <TableCell className="text-center text-white/70">
-                  Confie na<br />Sorte
+                  Squads júnior com<br />supervisão remota
                 </TableCell>
               </TableRow>
-              
+
               <TableRow className="border-b border-automato-gold/10">
                 <TableCell className="font-medium py-6 text-white" scope="row">Comunicação</TableCell>
                 <TableCell>
                   <div className="flex justify-center">
-                    <span className="bg-automato-blue text-white text-sm px-3 py-1 rounded-full border border-automato-gold/30">Diária</span>
+                    <span className="bg-automato-blue text-white text-sm px-3 py-1 rounded-full border border-automato-gold/30">Direta e contínua</span>
                   </div>
                 </TableCell>
-                <TableCell className="text-center text-white/70">Inexistente</TableCell>
-                <TableCell className="text-center text-white/70">Muitas falhas</TableCell>
-                <TableCell className="text-center text-white/70">Fantasma</TableCell>
-              </TableRow>
-              
-              <TableRow className="border-b border-automato-gold/10">
-                <TableCell className="font-medium py-6 text-white" scope="row">Primeira Entrega</TableCell>
-                <TableCell>
-                  <div className="flex justify-center">
-                    <span className="bg-automato-blue text-white text-sm px-3 py-1 rounded-full border border-automato-gold/30">2-3 dias</span>
-                  </div>
-                </TableCell>
-                <TableCell className="text-center text-white/70">Várias Semanas</TableCell>
-                <TableCell className="text-center text-white/70">6-7 Semanas</TableCell>
-                <TableCell className="text-center text-white/70">2-3 Meses</TableCell>
-              </TableRow>
-              
-              <TableRow>
-                <TableCell className="font-medium py-6 text-white" scope="row">Rescisão</TableCell>
-                <TableCell>
-                  <div className="flex justify-center">
-                    <span className="bg-automato-blue text-white text-sm px-3 py-1 rounded-full border border-automato-gold/30">Um clique + 0 R$</span>
-                  </div>
-                </TableCell>
-                <TableCell className="text-center text-white/70">Demorada</TableCell>
+                <TableCell className="text-center text-white/70">Inconsistente</TableCell>
                 <TableCell className="text-center text-white/70">
-                  Pesadelo + Dores<br />de Cabeça
+                  Sujeita a prioridades<br />internas
                 </TableCell>
-                <TableCell className="text-center text-white/70">Demorada</TableCell>
+                <TableCell className="text-center text-white/70">
+                  Reportes formais<br />e espaçados
+                </TableCell>
+              </TableRow>
+
+              <TableRow>
+                <TableCell className="font-medium py-6 text-white" scope="row">Conhecimento gerado</TableCell>
+                <TableCell>
+                  <div className="flex justify-center">
+                    <span className="bg-automato-blue text-white text-sm px-3 py-1 rounded-full border border-automato-gold/30">
+                      Documentado e transferido ao seu time
+                    </span>
+                  </div>
+                </TableCell>
+                <TableCell className="text-center text-white/70">Raramente documentado</TableCell>
+                <TableCell className="text-center text-white/70">
+                  Depende do processo<br />interno
+                </TableCell>
+                <TableCell className="text-center text-white/70">
+                  Fica retido com<br />o fornecedor
+                </TableCell>
               </TableRow>
             </TableBody>
           </Table>
