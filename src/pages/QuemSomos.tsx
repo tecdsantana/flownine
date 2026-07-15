@@ -7,54 +7,75 @@ import Footer from '@/components/Footer';
 import BtnWhatsappFloat from '@/components/BtnWhatsappFloat';
 
 const stats = [
-  { value: '12+', label: 'anos de experiência em dados e analytics' },
-  { value: '6', label: 'empresas — de varejo a bancos e fintechs' },
+  { value: '15+', label: 'anos de experiência em dados e analytics' },
+  { value: '9', label: 'empresas — de consultorias a bancos, varejo e fintechs' },
   { value: '20mil+', label: 'colaboradores impactados por soluções de People Analytics' },
   { value: '2h → 5min', label: 'tempo de processamento de dados reduzido no Banco Safra' },
 ];
 
 const timeline = [
   {
+    period: '2010 – 2012',
+    role: 'Consultant Data — Audit & Supply Chain',
+    company: 'EY',
+    description:
+      'Entregou soluções de dados em mais de 8 projetos corporativos de auditoria, tributário e supply chain, estruturando modelos de dados e bases em SQL Server e Access para grandes clientes.',
+  },
+  {
+    period: '2012 – 2014',
+    role: 'Data Analyst — Finance',
+    company: 'Siemens',
+    description:
+      'Automatizou simulações financeiras e processos de reconciliação contábil com VBA, eliminando trabalho manual e economizando horas de operação todos os meses.',
+  },
+  {
     period: '2014 – 2016',
     role: 'Data Engineer — BI & Pricing',
-    company: 'GPA — Grupo Pão de Açúcar',
+    company: 'Grupo Pão de Açúcar',
     description:
       'Liderou a arquitetura de um banco de dados SQL para todo o grupo, escalando o acesso à informação de 10 para mais de 100 usuários, e construiu ferramentas de precificação que ajudaram a impulsionar cerca de 20% de crescimento em vendas.',
   },
   {
     period: '2016 – 2020',
-    role: 'People Analytics Consultant',
+    role: 'People Analytics Consultant (DBA)',
     company: 'Banco Safra',
     description:
       'Implementou do zero um banco de dados SQL Server com ETL automatizado, reduzindo o tempo de processamento de 2 horas para 5 minutos, e passou a entregar dashboards executivos com Power BI e SSRS para toda a liderança de RH.',
   },
   {
     period: '2020 – 2022',
-    role: 'Senior People Analytics',
+    role: 'People & Data Analytics',
     company: 'PicPay',
     description:
-      'Foi responsável por democratizar dados de RH em uma das maiores fintechs do Brasil, criando a primeira camada estruturada de reporting de pessoas, além de liderar uma análise de sentimento durante a pandemia para identificar risco de burnout em mais de 1.200 colaboradores.',
+      'Estabeleceu a primeira fundação de People Analytics da empresa, liderou uma análise de sentimento durante a pandemia para identificar risco de burnout em mais de 1.200 colaboradores, e construiu pipelines de enriquecimento de dados com web scraping e text mining.',
   },
   {
     period: '2022 – 2023',
     role: 'Analytics Engineering Manager',
     company: 'Marvin',
     description:
-      'Liderou um time de 4 analistas e migrou processos inteiros de planilhas Excel para dashboards em tempo real (Grafana e Power BI), reduzindo o atraso de relatórios de 2 dias para tempo real numa fintech de antecipação de recebíveis.',
+      'Liderou o time de analytics engineering e migrou processos inteiros de planilhas Excel para dashboards em tempo real, construindo um ecossistema completo de analytics para uma fintech de recebíveis.',
   },
   {
     period: '2023 – 2025',
     role: 'People Analytics Coordinator (LATAM)',
     company: 'Natura &Co',
     description:
-      'Construiu um modelo preditivo de turnover voluntário, um motor de análise semântica com LLMs para mais de 80 mil metas de colaboradores (elevando a aderência estratégica de 62% para 80%), e ferramentas de redesenho organizacional para uma multinacional com mais de 20 mil pessoas.',
+      'Construiu modelos de machine learning para prever risco de turnover voluntário e um motor de análise semântica com GenAI e LLMs para mais de 80 mil metas de colaboradores — elevando o alinhamento estratégico de 62% para 80% — além de ferramentas de redesenho organizacional e sucessão de lideranças.',
   },
   {
-    period: '2025 – atual',
-    role: 'Data Analytics Lead',
-    company: 'MDR',
+    period: '2025 – 2026',
+    role: 'Data Analytics | MIS',
+    company: 'ASA',
     description:
-      'Estabeleceu um framework de governança de dados do zero e migrou relatórios manuais para uma arquitetura em tempo real na AWS, sustentando a inteligência comercial e financeira de uma fintech B2B.',
+      'Apoiou o desenvolvimento e consolidação de indicadores de RH e operacionais, automatizando processos de reporting e acelerando a tomada de decisão baseada em dados.',
+  },
+  {
+    period: '2026 – atual',
+    role: 'Data Analytics Lead',
+    company: 'MDR — Mercado de Recebíveis',
+    description:
+      'Estabeleceu um framework de governança de dados do zero e lidera iniciativas de analytics para uma fintech de recebíveis, priorizando as oportunidades comerciais com maior potencial de conversão.',
   },
 ];
 
@@ -97,12 +118,12 @@ const QuemSomos = () => {
                 Douglas Santana decidiu empreender e fundou a FlowNine em 2022.
               </p>
               <p>
-                A trajetória passou por gigantes do varejo, como o Grupo Pão de Açúcar, pela área
-                bancária no Banco Safra, por fintechs como PicPay, Marvin e MDR, e por uma
-                multinacional do setor de beleza com mais de 20 mil colaboradores, a Natura. Em cada
-                uma dessas empresas, o desafio se repetia: dados dispersos, decisões lentas, e times
-                inteiros dependendo de uma única pessoa para entender o que estava acontecendo no
-                negócio.
+                A trajetória passou por consultorias como a EY, pela indústria com a Siemens, por
+                gigantes do varejo como o Grupo Pão de Açúcar, pela área bancária no Banco Safra, por
+                fintechs como PicPay, Marvin, ASA e MDR, e por uma multinacional do setor de beleza
+                com mais de 20 mil colaboradores, a Natura. Em cada uma dessas empresas, o desafio se
+                repetia: dados dispersos, decisões lentas, e times inteiros dependendo de uma única
+                pessoa para entender o que estava acontecendo no negócio.
               </p>
               <p>
                 Foi ver esse padrão se repetir — em bancos, fintechs, varejo e indústria — que trouxe
