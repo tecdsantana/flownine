@@ -7,7 +7,7 @@ const BtnWhatsappFloat = () => {
   return (
     <div className="i-support-whatsapp" style={{ position: "fixed", bottom: 20, right: 20, zIndex: 1000 }}>
       <a
-        href='https://api.whatsapp.com/send?phone=11961250113&text=Olá, quero saber mais sobre como a IA pode potencializar o meu trabalho.'
+        href='https://api.whatsapp.com/send?phone=11961250113&text=Olá, gostaria de agendar uma reunião estratégica'
         target="_blank"
         rel="noreferrer"
       >
