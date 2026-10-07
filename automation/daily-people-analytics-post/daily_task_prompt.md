@@ -48,6 +48,31 @@ Como aplicar o tema-alvo, sem virar propaganda:
 - Dedique pelo menos uma seção do `content` a responder essa pergunta na prática — conteúdo real de valor, não um CTA disfarçado (ex.: se o tema for "quanto custa uma consultoria de dados", explique os fatores reais que influenciam o preço, sem inventar números da FlowNine).
 - Incorpore o tema-alvo ao `title` quando ficar natural; quando não couber bem, é aceitável que ele apareça só na seção dedicada e nas tags — não force um título artificial.
 
+## 2.5 Cronograma prioritário da semana de 17–23/08/2026 (pesquisa de concorrente)
+
+**Esta seção tem prioridade sobre as seções 1 e 2 enquanto a data atual estiver dentro do intervalo abaixo.** Foi montada a partir de uma análise do site do concorrente Minehr (minehr.com.br, plataforma de People Analytics) — mapeamos os termos de busca que eles miram (páginas de produto e os poucos posts do blog deles) e identificamos lacunas: termos de alto volume de busca que eles cobrem e nós ainda não.
+
+Regra de execução: em cada execução dentro da janela 17–23/08/2026, identifique a data/horário atual e publique o tópico correspondente da tabela abaixo, na ordem. Se um horário já passou sem publicar (app fechado, falha etc.), publique o próximo tópico pendente da lista na próxima execução, sem pular — não republique um tópico já coberto nesta semana. Fora dessa janela de datas, ignore esta seção e volte ao funcionamento normal (seções 1 e 2).
+
+| Data | Turno | Formato | Tópico |
+|---|---|---|---|
+| 17/08 (seg) | manhã | Case | ~~Case IBM: AskHR~~ (já publicado) |
+| 17/08 (seg) | tarde | Tutorial | O que é People Analytics: guia completo para começar do zero (termo pilar, alto volume — a Minehr tem um post curto sobre isso; o nosso precisa ser mais completo) |
+| 18/08 (ter) | manhã | Case | Netflix — motor de recomendação e cultura orientada a dados |
+| 18/08 (ter) | tarde | Tutorial | Como implantar People Analytics na empresa: passo a passo (mesmo tema de um post da Minehr — dispute direto de palavra-chave) |
+| 19/08 (qua) | manhã | Case | Amazon — forecast de demanda e supply chain analytics |
+| 19/08 (qua) | tarde | Tutorial | Como fazer benchmarking de indicadores de RH com o mercado (a Minehr vende produto de benchmark — termo de intenção comercial forte) |
+| 20/08 (qui) | manhã | Case | Spotify — personalização orientada a dados |
+| 20/08 (qui) | tarde | Tutorial | Como estruturar uma pesquisa/entrevista de desligamento que gera insight, não só dado (a Minehr tem um produto inteiro para isso — "pesquisa de desligamento" / "entrevista de desligamento") |
+| 21/08 (sex) | manhã | Case | Walmart — analytics de supply chain |
+| 21/08 (sex) | tarde | Tutorial | Retenção de talentos: como montar uma estratégia orientada por dados (não confundir com o post de modelo preditivo de turnover já publicado — foco aqui é ação/estratégia de retenção, não o modelo) |
+| 22/08 (sáb) | manhã | Case | Airbnb — precificação dinâmica orientada por dados |
+| 22/08 (sáb) | tarde | Tutorial | Como montar um painel/dashboard do colaborador com dados de RH centralizados (cargo, salário, movimentações, férias — mesmo conceito do produto "Painel do Colaborador" da Minehr) |
+| 23/08 (dom) | manhã | Case | Livre — escolha um case ainda não usado do banco de temas geral (seção 1 antiga / banco de temas) |
+| 23/08 (dom) | tarde | Tutorial | Chatbot de RH com IA: como funciona e como implementar (a Minehr vende um produto de chat AI para RH) |
+
+Ao publicar um tópico desta tabela, adicione a tag específica do termo de busca (ex.: "pesquisa de desligamento", "benchmarking de RH", "painel do colaborador", "o que é people analytics") além das tags de SEO já previstas na seção 3.
+
 ## 3. Escrever o post — regras de SEO e originalidade
 
 O objetivo é conteúdo que o Google trate como **útil e original** (critério real de ranqueamento — E-E-A-T: Experience, Expertise, Authoritativeness, Trustworthiness), não um texto genérico que pareça produzido em massa. Isso protege o site tanto de penalização por "conteúdo raso" quanto de parecer copy robotizado para quem lê. Regras:

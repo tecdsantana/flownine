@@ -37,7 +37,7 @@ const PoliticaDePrivacidade = () => {
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
                 Política de <span className="text-automato-gold">Privacidade</span>
               </h1>
-              <p className="text-white/60 text-lg">Última atualização: agosto de 2026</p>
+              <p className="text-white/60 text-lg">Última atualização: setembro de 2026</p>
             </div>
           </section>
 
@@ -82,11 +82,12 @@ const PoliticaDePrivacidade = () => {
                 atendimento e acompanhamento comercial.
               </p>
               <p>
-                <strong>2.3 Dados coletados automaticamente.</strong> Atualmente o site da FlowNine
-                não utiliza ferramentas de análise de tráfego ou publicidade (como Google Analytics
-                ou Google Ads). Caso passemos a utilizar esse tipo de ferramenta no futuro, esta
-                política será atualizada antes da ativação, informando quais dados técnicos (como
-                endereço IP, tipo de dispositivo e páginas visitadas) passam a ser coletados.
+                <strong>2.3 Dados coletados automaticamente.</strong> Utilizamos o Google Tag Manager
+                para gerenciar tags de rastreamento em nosso site, incluindo o Google Ads, usado para
+                mensurar o desempenho das nossas campanhas de anúncios. Essas ferramentas podem
+                coletar automaticamente dados técnicos como endereço IP e localização aproximada,
+                tipo de dispositivo, navegador e sistema operacional, páginas visitadas e tempo de
+                navegação, e a origem do acesso ao site (por exemplo, se você chegou por um anúncio).
               </p>
 
               <h2 id="como-usamos">3. Como usamos seus dados</h2>
@@ -107,6 +108,7 @@ const PoliticaDePrivacidade = () => {
               <ul className="list-disc pl-6 space-y-1">
                 <li>Supabase (banco de dados e infraestrutura do site e do blog)</li>
                 <li>Klaviyo (automação de e-mail e comunicação a partir do formulário de contato)</li>
+                <li>Google Tag Manager e Google Ads (gerenciamento de tags e mensuração de campanhas de anúncios)</li>
                 <li>WhatsApp Business (atendimento e comunicação comercial)</li>
                 <li>Vercel (hospedagem do site)</li>
               </ul>
@@ -117,16 +119,24 @@ const PoliticaDePrivacidade = () => {
 
               <h2 id="cookies">5. Cookies e tecnologias de rastreamento</h2>
               <p>
-                Hoje o site da FlowNine utiliza apenas cookies estritamente necessários ao seu
-                funcionamento básico (por exemplo, para lembrar preferências de navegação). Não
-                utilizamos, atualmente, cookies de análise ou publicidade de terceiros. Se no futuro
-                passarmos a utilizar ferramentas como Google Analytics ou Google Ads, exibiremos um
-                aviso de cookies no site e atualizaremos esta seção antes da ativação, permitindo que
-                você gerencie suas preferências.
+                Além dos cookies estritamente necessários ao funcionamento básico do site, utilizamos
+                o <strong>Google Tag Manager</strong> para gerenciar tags de rastreamento, incluindo
+                cookies do <strong>Google Ads</strong> usados para mensurar a eficácia das nossas
+                campanhas de anúncios (por exemplo, saber se um clique em um anúncio resultou em uma
+                visita ou contato pelo formulário).
               </p>
               <p>
                 Você sempre pode gerenciar ou bloquear cookies diretamente nas configurações do seu
-                navegador — o que pode impactar algumas funcionalidades do site.
+                navegador, ou usar as ferramentas de controle de anúncios do Google, disponíveis em{' '}
+                <a
+                  href="https://myadcenter.google.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-automato-gold"
+                >
+                  myadcenter.google.com
+                </a>
+                . Bloquear cookies pode impactar algumas funcionalidades do site.
               </p>
 
               <h2 id="retencao">6. Por quanto tempo armazenamos seus dados</h2>
@@ -137,6 +147,7 @@ const PoliticaDePrivacidade = () => {
               <ul className="list-disc pl-6 space-y-1">
                 <li>Dados de contato comercial: enquanto houver interesse comercial ativo, ou até solicitação de exclusão</li>
                 <li>Histórico de conversas via WhatsApp: até 2 anos, para fins de atendimento</li>
+                <li>Dados de navegação e cookies do Google Tag Manager/Google Ads: pelo prazo padrão dessas ferramentas, definido pelo Google</li>
                 <li>Dados fiscais e contratuais, quando aplicável: conforme prazo mínimo exigido pela legislação brasileira</li>
               </ul>
 
